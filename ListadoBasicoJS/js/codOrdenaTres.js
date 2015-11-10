@@ -18,7 +18,6 @@ function OrdenaTres(numeros){
 	var msg = document.getElementById("msg");
 	var mensaje ="";
 
-
 	if(numeros[0]!="" & numeros[1]!="" & numeros[2]!=""){
 		if (numeros[0] <= numeros[2] & numeros[0] <= numeros[1]){
 			mensaje += numeros[0].toString()+"-";
